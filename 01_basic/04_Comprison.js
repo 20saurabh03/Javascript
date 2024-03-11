@@ -14,8 +14,8 @@
 
 // === (also check Datatypes of the number )
 
-console.log("2"=== 2);
-console.log(2 === 2);
+// console.log("2"=== 2);
+// console.log(2 === 2);
 
 
 
