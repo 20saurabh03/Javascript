@@ -25,6 +25,31 @@ const myFunc = function(){
     console.log("My saurabh sharma ");
 }
 
-console.log(typeof hero);
-console.log(typeof myObj);
-console.log(typeof myFunc);
+// console.log(typeof hero);
+// console.log(typeof myObj);
+// console.log(typeof myFunc);
+
+//---------------------------------------------Memory management------------------------------
+
+// Stack (Primitive) , Heap(Non- primitive)
+
+let collegeName = "saurabh"
+
+let anothername ="Ashu"
+anothername = "sumit"
+
+console.log(collegeName)
+console.log(anothername)
+
+
+let oneuser = {
+    email : "abc@email.com",
+    id : 1
+
+}
+
+let Twouser = oneuser;
+
+Twouser.email = "xvy@google.com"
+
+console.log(oneuser.email);
